@@ -12,12 +12,12 @@ export const toc = [
   },
   {
     id: "rest3",
-    title: "Mitro BCN",
+    title: "El Paraigua",
     options: [],
   },
   {
-    id: "rest4",
-    title: "Loft Poblenou",
+    id: "rest5",
+    title: "Mitro BCN",
     options: [],
   },
   {

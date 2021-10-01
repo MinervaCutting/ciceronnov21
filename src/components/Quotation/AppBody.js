@@ -6,10 +6,10 @@ import ReactToPrint from "react-to-print";
 import Footer from "../StickyFooter/Footer";
 import RestaurantVendor from "../../utils/restaurant_vendors/RestaurantVendor";
 import ActivityVendor from "../../utils/activity_vendors/ActivityVendor";
-import { canfisher_data } from "../../vendors/can_fisher/data";
-import { tragaluz_data } from "../../vendors/tragaluz/data";
 import { philippinesclub_data } from "../../vendors/philippines_club/data";
 import { verne_data } from "../../vendors/verne/data";
+import { paraigua_data } from "../../vendors/paraigua/data";
+import { mitro_data } from "../../vendors/mitro/data";
 
 
 
@@ -70,23 +70,25 @@ export default function AppBody() {
       In this presentation you will find some options that meet these requirements and that I am sure you will love 🤗, 
       </Typography>
       <Typography variant='h4' gutterBottom id='rest1'>
-       Philippines Club
+      🔸 Philippines Club
       </Typography>
       <RestaurantVendor data={philippinesclub_data} />
       <Typography variant='h4' gutterBottom id='rest2'>
-       Verne
+      🔸 Verne
       </Typography>
       <RestaurantVendor data={verne_data} />
       <Typography variant='h4' gutterBottom id='rest3'>
-       Mitro BCN
+      🔸El Paraigua
       </Typography>
-      <Typography variant='h4' gutterBottom id='rest4'>
-       Loft Poblenou
+      <RestaurantVendor data={paraigua_data} />
+       <Typography variant='h4' gutterBottom id='rest5'>
+      🔸Mitro BCN
       </Typography>
+            <RestaurantVendor data={mitro_data} />
 
       
       <Typography variant='h4' gutterBottom id='map'>
-      <a href="https://www.google.com/maps/d/edit?mid=1nqiV2-lhkUyQ1UGtdNMfUKsHD77DHLqN&usp=sharing" target ="_blank">🗺️ Overview Map</a>
+      <a href="https://www.google.com/maps/d/edit?mid=1ju6TBEgUuWlACnFPPPsTg53RpSMFHzzu&usp=sharing" target ="_blank">🗺️ Overview Map</a>
       </Typography>
     </Paper>
   );

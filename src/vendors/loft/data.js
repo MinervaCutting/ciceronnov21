@@ -2,12 +2,9 @@ import img1 from "./rest1.jpg";
 import img2 from "./rest2.jpg";
 import img3 from "./rest3.jpg";
 import img4 from "./rest4.jpg";
-import img5 from "./rest5.jpg";
-import img6 from "./rest6.jpg";
-import img7 from "./rest7.jpg";
-import img8 from "./rest8.jpg";
 
-export const windsor = {
+
+export const loft = {
   title: "Windsor",
   cat: "single",
   type: "Meals",
@@ -17,7 +14,7 @@ export const windsor = {
   explanation: "Private rooms: Terrace (min 58 max 84), Salón Corcega (min 29 max 38), Main Dinning Room (min 45 max 60) ",
 };
 
-export const windsor_data = {
+export const loft_data = {
   variant: "h6",
   title: "",
   pdf: null,
@@ -51,22 +48,7 @@ export const windsor_data = {
       caption: "Terrace",
       photo: img4,
     },
-    {
-      caption: "Delicious mediterranean dishes",
-      photo: img5,
-    },
-    {
-      caption: "Delicious mediterranean dishes",
-      photo: img6,
-    },
-    {
-      caption: "Delicious mediterranean dishes",
-      photo: img7,
-    },
-    {
-      caption: "Delicious mediterranean dishes",
-      photo: img8,
-    },
+
     
   ],
 };

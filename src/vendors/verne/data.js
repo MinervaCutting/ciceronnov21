@@ -35,27 +35,27 @@ export const verne_data = {
   ],
   items: [
     {
-      caption: "Terrace",
+      caption: "Private Events room",
       photo: img1,
     },
     {
-      caption: "Entrance",
+      caption: "Restaurant",
       photo: img2,
     },
     {
-      caption: "Salon Corcega",
+      caption: "Private Events room",
       photo: img3,
     },
     {
-      caption: "Terrace",
+      caption: "Entrance",
       photo: img4,
     },
     {
-      caption: "Delicious mediterranean dishes",
+      caption: "Restaurant",
       photo: img5,
     },
     {
-      caption: "Delicious mediterranean dishes",
+      caption: "Restaurant",
       photo: img6,
     },
   ],
